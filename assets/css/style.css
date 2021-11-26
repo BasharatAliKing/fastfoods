@@ -430,3 +430,24 @@ footer{
     margin-top: 40px;
     color: blue;
 }
+
+#go-up i{
+    color: white;
+    font-size: 30px;
+}
+#go-up{
+    background-color: #f7bb30;
+    border-radius: 50%;
+    position: absolute;
+  z-index: 400;
+   right: 40px;
+   bottom: 40px;
+    position: fixed;
+    margin-right: auto;
+    padding: 10px;
+    padding-bottom: 5px;
+   
+}
+#go-up a{
+    transform: translateY(0);
+}
