@@ -3,12 +3,15 @@ body{
     font-family: 'Changa One', cursive;
     background-color: black;
 }
+#header nav{
+    position:relative;
+    margin-top: -25px;
+    background-color:#ff000000;
+}
 nava i{
     margin-right: 10px;
 }
-.bg-dark{
-    background-color: black;
-}
+
 nav{
     font-family: 'Montagu Slab', serif;
 }
