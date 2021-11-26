@@ -4,9 +4,10 @@ body{
     background-color: black;
 }
 #header nav{
-    position:relative;
+    transform: translateY(0);
     margin-top: -25px;
     background-color:#ff000000;
+    z-index: 30;
 }
 nava i{
     margin-right: 10px;
