@@ -242,6 +242,13 @@
         margin-left: 20px;
         margin-top: 10px; 
          }
+         #menu-burger .btn-menu {
+            margin-top: 20px;
+            border: 1px solid white;
+            margin-right: 20px;
+            color: white;
+            padding: 7px 10px;
+        }
          #card-online-order .card h1 {
             margin-top: 20px;
             font-size: 38px;
