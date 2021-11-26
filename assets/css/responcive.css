@@ -289,6 +289,10 @@
          #footer h4{
              text-align: start;
          }
+         #go-up #king{
+             right: 60px;
+             bottom: 20px;
+         }
          footer{
              text-align: center;
          }

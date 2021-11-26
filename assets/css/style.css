@@ -432,22 +432,30 @@ footer{
 }
 
 #go-up i{
+    margin-top: 10px;
     color: white;
     font-size: 30px;
 }
-#go-up{
-    background-color: #f7bb30;
+#go-up #king{
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    line-height: 46px;
+    color: #FFF;
+    background: #f9b129;
     border-radius: 50%;
-    position: absolute;
-  z-index: 400;
-   right: 40px;
-   bottom: 40px;
     position: fixed;
-    margin-right: auto;
-    padding: 10px;
-    padding-bottom: 5px;
-   
+    right: 15px;
+    bottom: 15px;
+    overflow: hidden;
+    text-align: center;
+    text-decoration: none;
+    z-index: 20;
+    /* transition: .3s all ease;
+    -webkit-transform: translateY(100px);
+    transform: translateY(100px); */
 }
-#go-up a{
+#go-up #king.active{
+    /* webkit-transform: translateY(0); */
     transform: translateY(0);
 }
