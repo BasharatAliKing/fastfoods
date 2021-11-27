@@ -141,7 +141,10 @@
         text-align: start;
     }
     #header .cart i {
-        margin-left: 70px;
+        margin-left: 20px;
+    }
+    ul{
+        margin-left: 0px;
     }
     .carousel-caption {
         position: absolute;
@@ -184,7 +187,7 @@
         }
         #home #slider1img1{
             /* display: none; */
-            right: -50px;
+            right: -40px;
             top: -20px;
             width: 150px;
         }
